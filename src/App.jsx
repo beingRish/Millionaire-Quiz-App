@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/app.css";
 import Trivia from "./components/Trivia";
 import Timer from "./components/Timer";
 
 function App() {
 
-  const [questionNumber, setQuestionNumber] = React.useState(1)
+  const [username, setUsername] = React.useState(null);
+  const [questionNumber, setQuestionNumber] = React.useState(1);
   const [stop, setStop] = React.useState(false);
   const [earned, setEarned] = React.useState("$ 0");
 
@@ -103,6 +104,7 @@ function App() {
 
   return (
     <div className="app">
+      
       <div className="main">
         {stop ? (
           <h1 className="endText">You earned:  {earned}</h1>
