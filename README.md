@@ -1,3 +1,3 @@
 # Millionaire Quiz App
 
-https://kbc-application.netlify.app/
+[Play the Quiz](https://kbc-application.netlify.app/)
