@@ -78,6 +78,270 @@ function App() {
         },
       ],
     },
+    {
+      id: 4,
+      question: "what has been e currency of Greece sine 2002?",
+      answers: [
+        {
+          text: "Euro",
+          correct: true,
+        },
+        {
+          text: "Peso",
+          correct: false,
+        },
+        {
+          text: "Drachma",
+          correct: false,
+        },
+        {
+          text: "Lira",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "which Indian sportsperson was awarded the “order of Australia” award in 2012?",
+      answers: [
+        {
+          text: "Saina Nehwal",
+          correct: false,
+        },
+        {
+          text: "Sachin Tendulkar",
+          correct: true,
+        },
+        {
+          text: "Sania Mirza",
+          correct: false,
+        },
+        {
+          text: "Rahul Dravid",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "To whom did Ravindranath Tagore dedicate his book 'Visva Parichay' written on science?",
+      answers: [
+        {
+          text: "C v raman",
+          correct: false,
+        },
+        {
+          text: "Jagdish chandra Bose",
+          correct: false,
+        },
+        {
+          text: "P c Roy",
+          correct: false,
+        },
+        {
+          text: "Satyendra nath Bose",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "What is the new name of the Hyderabad franchise that would replace Deccan Charges in IPL6?",
+      answers: [
+        {
+          text: "Sun Chargers",
+          correct: false,
+        },
+        {
+          text: "Nizam Jyothi",
+          correct: false,
+        },
+        {
+          text: "Andhra Aces ",
+          correct: false,
+        },
+        {
+          text: "Sun risers Hyderabad",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: " In India, under which Union Ministry does the 'Rajbhasha Vibhag' function?",
+      answers: [
+        {
+          text: "Home Affairs",
+          correct: true,
+        },
+        {
+          text: "HRD",
+          correct: false,
+        },
+        {
+          text: "Culture",
+          correct: false,
+        },
+        {
+          text: "Law & Justice",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: " According to a proverb, what is said to be 'the mother of invention'?",
+      answers: [
+        {
+          text: "Society",
+          correct: false,
+        },
+        {
+          text: "Proglem",
+          correct: false,
+        },
+        {
+          text: "Science",
+          correct: false,
+        },
+        {
+          text: "Necessity",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: " Which constituency does Abhijit Mukherjee represents in the 15th Lok Sabha ?",
+      answers: [
+        {
+          text: "Jadavpur",
+          correct: false,
+        },
+        {
+          text: "Birbhum",
+          correct: false,
+        },
+        {
+          text: "Jangipur ",
+          correct: true,
+        },
+        {
+          text: "Midnapore",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 11,
+      question: " Which of these ships was not part of Christopher Columbus's first voyage in 1492 ?",
+      answers: [
+        {
+          text: "Nina",
+          correct: false,
+        },
+        {
+          text: "La Gorda",
+          correct: true,
+        },
+        {
+          text: "Pinta",
+          correct: false,
+        },
+        {
+          text: "Santa Maria",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 12,
+      question: " Which of these tourist attractions is situated on an island ?",
+      answers: [
+        {
+          text: "Ellora Caves",
+          correct: false,
+        },
+        {
+          text: " Ajanta Caves",
+          correct: false,
+        },
+        {
+          text: "Kanheri Caves",
+          correct: false,
+        },
+        {
+          text: "Elephanta Caves",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 13,
+      question: " Which of these world champions is a parent of twins?",
+      answers: [
+        {
+          text: "Sushil Kumar ",
+          correct: false,
+        },
+        {
+          text: " M. C. Mary Kom",
+          correct: true,
+        },
+        {
+          text: "Vishwanathan Anand",
+          correct: false,
+        },
+        {
+          text: "Gagan Narang",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 14,
+      question: "  What was the first ministerial portfolio held by Indira Gandhi?",
+      answers: [
+        {
+          text: "Home Affairs ",
+          correct: false,
+        },
+        {
+          text: " Information & Broadcasting",
+          correct: true,
+        },
+        {
+          text: "Science & Technology",
+          correct: false,
+        },
+        {
+          text: " Education",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 15,
+      question: "  Which of these Indian currency notes does not have the special geometrical shape that helps the visually impaired denominations?",
+      answers: [
+        {
+          text: "Rs 100 ",
+          correct: false,
+        },
+        {
+          text: " Rs 50",
+          correct: false,
+        },
+        {
+          text: "Rs 1000",
+          correct: false,
+        },
+        {
+          text: " Rs 10",
+          correct: true,
+        },
+      ],
+    },
   ];
 
   const moneyPyramid = React.useMemo(() =>
