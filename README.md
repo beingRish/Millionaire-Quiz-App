@@ -2,7 +2,7 @@
 
 [Play the Quiz](https://kbc-application.netlify.app/)
 
-The "Who Wants to Be a Millionaire" Quiz Application is a dynamic and interactive web-based quiz game developed using the React framework. Inspired by the popular television show, the application provides users with an engaging quiz experience, complete with multiple-choice questions and lifelines.
+The "Who Wants to Be a Millionaire" Quiz Application is a dynamic and interactive web-based quiz game developed using the React framework. Inspired by the popular television show, the application provides users with an engaging quiz experience, complete with multiple-choice questions.
 
 ## Key Features and Technologies Utilized:
   ### 1. React.js: 
